@@ -1,0 +1,25 @@
+two different data type comparison
+console.log("2" > 1)
+console.log(""02 > 1)
+
+
+console.log(null > 0) 
+console.log(null == 0)
+console.log(null >= 0)
+
+The reason is that an equality check == and comparison > < >= <= work deifferently
+Cpmparison converts mull to a number treating it as 0
+that's why (3) null >= 0 is true and (1) nul > 0 is false
+
+
+JavaScript is a dynamically typed language, 
+meaning that type checking happens at runtime, rather than during compilation
+
+functions is also a non primitive datatype
+const myfunc = function()
+{
+    console.log("Hello")
+}
+
+typeof BigInt is undefined
+typeof null is object
