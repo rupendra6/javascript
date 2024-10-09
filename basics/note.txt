@@ -23,3 +23,9 @@ const myfunc = function()
 
 typeof BigInt is undefined
 typeof null is object
+
+const mySym = Symbol("hello");
+object symbol
+
+destructuring
+randomapi
